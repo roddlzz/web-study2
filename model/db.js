@@ -1,7 +1,7 @@
 var Sequelize = require("sequelize");
 var sequelize;
 
-sequelize = new Sequelize("MySQL80", "root", "!LockoutD214", {
+sequelize = new Sequelize("haha", "root", "!LockoutD214", {
     host: "localhost",
     port: 3306,
     dialect: "mysql",
