@@ -3,7 +3,7 @@ const router = express.Router()
 const db = require('../model/db');
 
 router.get("/", function(req,res){
-    res.render('index',{title:"EJS 메인페이지"})
+    res.render('main',{title:"영화리뷰사이트"})
 })
 
 router.post('/', function (req, res) {

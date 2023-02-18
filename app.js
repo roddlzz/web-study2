@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.set('view', './views');
 app.use('/static', express.static(__dirname + '/public'));
 
-app.use(helmet());
+//app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded());
 
